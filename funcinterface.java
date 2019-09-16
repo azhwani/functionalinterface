@@ -1,14 +1,15 @@
 
 @FunctionalInterface  
-interface sayable{  
-    void say(String msg);  
+interface hellofy{  
+    void hello(String msg);  
 }  
-public class FunctionalInterfaceExample implements sayable{  
-    public void say(String msg){  
+
+public class FunctionalInterfaceImpl implements hellofy{  
+    public void hello(String msg){  
         System.out.println(msg);  
     }  
     public static void main(String[] args) {  
-        FunctionalInterfaceExample fie = new FunctionalInterfaceExample();  
-        fie.say("Hello there");  
+        FunctionalInterfaceImpl fie = new FunctionalInterfaceImpl();  
+        fie.hello("Hello There!");  
     }  
 }  
