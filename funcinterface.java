@@ -1,3 +1,4 @@
+package java8.features.com;
 
 @FunctionalInterface  
 interface hellofy{  
@@ -13,3 +14,4 @@ public class FunctionalInterfaceImpl implements hellofy{
         fie.hello("Hello There!");  
     }  
 }  
+
